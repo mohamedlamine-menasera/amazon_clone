@@ -35,4 +35,6 @@ class AuthService {
       showSnackBar(context, e.toString());
     }
   }
+
+  void signInUser() {}
 }
