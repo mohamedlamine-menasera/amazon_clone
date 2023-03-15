@@ -11,8 +11,16 @@ class User {
   final String token;
   final List<dynamic> cart;
 
-  User(this.id, this.name, this.email, this.password, this.address, this.type,
-      this.token, this.cart);
+  User({
+    required this.id,
+    required this.name,
+    required this.email,
+    required this.password,
+    required this.address,
+    required this.type,
+    required this.token,
+    required this.cart,
+  });
 
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
