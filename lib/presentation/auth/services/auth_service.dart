@@ -12,7 +12,7 @@ class AuthService {
   // sign up user
   void signUpUser({
     required BuildContext context,
-    required String email,
+    required String emaill,
     required String password,
     required String name,
   }) async {
