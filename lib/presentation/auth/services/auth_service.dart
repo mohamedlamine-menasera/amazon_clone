@@ -9,7 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  // sign up user  Test
+  // sign up user
   void signUpUser({
     required BuildContext context,
     required String email,
